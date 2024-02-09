@@ -9,7 +9,7 @@ async function getResponse(req: NextRequest): Promise<NextResponse> {
     <meta property="fc:frame:image" content="${process.env.NEXT_PUBLIC_GATEWAY_URL}/ipfs/QmRp3YMQFLwdP1LZdsMfbMrBJqfhcXoKAb6ZYz5p38FHZV/7.jpeg" />
     <meta property="fc:frame:button:1" content="Play again" />
     <meta property="fc:frame:button:1:action" content="post" />
-    <meta property="fc:frame:post_url" content="${process.env.NEXT_PUBLIC_BASE_URL}/api/frame?id=0" />
+    <meta property="fc:frame:post_url" content="${process.env.NEXT_PUBLIC_BASE_URL}" />
   </head></html>`);
 
 }
