@@ -7,7 +7,7 @@ const frameMetadata = getFrameMetadata({
       label: "Begin"
     }
   ],
-  image: `${process.env.NEXT_PUBLIC_GATEWAY_URL}/ipfs/QmYGoKeonAtyzxTgC1oitdKesHce5f1YKzhuzrXEwP4UAy/0.png`,
+  image: `${process.env.NEXT_PUBLIC_GATEWAY_URL}/ipfs/QmTj8By4hPzXuJiczKjv49x5QCGfG2FFt7QexXqgdT2ap8/0.png`,
   post_url: `${process.env.NEXT_PUBLIC_BASE_URL}/api/frame?id=1`,
 });
 
@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Choose your own adventure!',
     description: 'A frame that lets you choose your own adventure!',
-    images: [`${process.env.NEXT_PUBLIC_GATEWAY_URL}/ipfs/QmYGoKeonAtyzxTgC1oitdKesHce5f1YKzhuzrXEwP4UAy/0.png`],
+    images: [`${process.env.NEXT_PUBLIC_GATEWAY_URL}/ipfs/QmTj8By4hPzXuJiczKjv49x5QCGfG2FFt7QexXqgdT2ap8/0.png`],
   },
   other: {
     ...frameMetadata,
